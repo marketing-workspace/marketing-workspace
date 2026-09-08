@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffaf3" />
+    <title>好看又好穿的童裝｜加入 Xixi 童裝好物社團</title>
+    <link rel="canonical" href="https://xixi-kids-club.aaaa4b8c-7053-40df-ae38-200c5d855c22.chatgpt.site/" />
+    <meta
+      name="description"
+      content="加入 Xixi 童裝雜貨舖，精選中大童、小童穿搭與親子好物，第一時間掌握新品分享。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:url" content="https://xixi-kids-club.aaaa4b8c-7053-40df-ae38-200c5d855c22.chatgpt.site/" />
+    <meta property="og:title" content="想幫孩子找到好看又好穿的童裝？" />
+    <meta
+      property="og:description"
+      content="加入 Xixi 童裝雜貨舖，精選中大童、小童穿搭與親子好物，第一時間掌握新品分享。"
+    />
+    <meta property="og:image" content="https://xixi-kids-club.aaaa4b8c-7053-40df-ae38-200c5d855c22.chatgpt.site/xixi-cover.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="想幫孩子找到好看又好穿的童裝？" />
+    <meta
+      name="twitter:description"
+      content="加入 Xixi 童裝雜貨舖，精選中大童、小童穿搭與親子好物，第一時間掌握新品分享。"
+    />
+    <meta name="twitter:image" content="https://xixi-kids-club.aaaa4b8c-7053-40df-ae38-200c5d855c22.chatgpt.site/xixi-cover.jpg" />
+    <link rel="icon" href="xixi-logo.jpg" />
+    <style>
+      :root {
+        --cream: #fffaf3;
+        --paper: #fffefb;
+        --ink: #2f2b2a;
+        --muted: #726966;
+        --peach-soft: #f9e1d1;
+        --sage-dark: #3f6964;
+        --facebook: #1877f2;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--cream); }
+
+      body {
+        margin: 0;
+        min-width: 0;
+        overflow-x: hidden;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 12% 8%, rgba(239, 184, 152, 0.3), transparent 30%),
+          radial-gradient(circle at 86% 92%, rgba(102, 137, 132, 0.2), transparent 30%),
+          var(--cream);
+        font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+      }
+
+      a { color: inherit; }
+
+      .site-shell {
+        position: relative;
+        isolation: isolate;
+        min-height: 100svh;
+        overflow: hidden;
+        padding: clamp(18px, 4vw, 44px) 16px 22px;
+      }
+
+      .ambient {
+        position: absolute;
+        z-index: -1;
+        border-radius: 999px;
+        filter: blur(2px);
+      }
+
+      .ambient-one {
+        top: -95px;
+        right: -80px;
+        width: 250px;
+        height: 250px;
+        border: 36px solid rgba(215, 130, 130, 0.11);
+      }
+
+      .ambient-two {
+        bottom: 4%;
+        left: -95px;
+        width: 220px;
+        height: 220px;
+        background: rgba(102, 137, 132, 0.08);
+      }
+
+      .invite-card {
+        width: min(100%, 820px);
+        margin: 0 auto;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        border-radius: 28px;
+        background: rgba(255, 254, 251, 0.94);
+        box-shadow: 0 24px 64px rgba(83, 63, 54, 0.13), 0 3px 12px rgba(83, 63, 54, 0.06);
+        backdrop-filter: blur(10px);
+      }
+
+      .cover-frame {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        background: var(--peach-soft);
+      }
+
+      .cover-frame::after {
+        position: absolute;
+        inset: auto 0 0;
+        height: 22%;
+        content: '';
+        background: linear-gradient(to bottom, transparent, rgba(48, 39, 35, 0.08));
+        pointer-events: none;
+      }
+
+      .cover-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .card-content { padding: 0 24px 28px; }
+
+      .brand-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-top: -38px;
+      }
+
+      .brand-logo {
+        position: relative;
+        z-index: 1;
+        width: 76px;
+        height: 76px;
+        flex: none;
+        border: 4px solid var(--paper);
+        border-radius: 50%;
+        background: #ffc064;
+        object-fit: cover;
+        box-shadow: 0 8px 20px rgba(71, 53, 45, 0.18);
+      }
+
+      .brand-row > div { padding-top: 43px; }
+
+      .brand-name,
+      .brand-note,
+      .eyebrow,
+      .intro,
+      .destination-note,
+      footer { margin: 0; }
+
+      .brand-name {
+        font-size: 1rem;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+      }
+
+      .brand-note {
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .hero-copy {
+        padding: 30px 0 24px;
+        text-align: center;
+      }
+
+      .eyebrow {
+        color: var(--sage-dark);
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0.13em;
+      }
+
+      h1 {
+        max-width: 650px;
+        margin: 10px auto 0;
+        font-family: 'Noto Serif TC', 'Songti TC', 'PMingLiU', serif;
+        font-size: clamp(1.85rem, 5vw, 3.15rem);
+        font-weight: 800;
+        line-height: 1.28;
+        letter-spacing: -0.025em;
+        text-wrap: balance;
+      }
+
+      .intro {
+        max-width: 570px;
+        margin: 14px auto 0;
+        color: var(--muted);
+        font-size: clamp(0.98rem, 2.2vw, 1.08rem);
+        line-height: 1.75;
+        text-wrap: pretty;
+      }
+
+      .join-button {
+        display: flex;
+        min-height: 58px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+        border-radius: 17px;
+        color: white;
+        background: linear-gradient(135deg, #237ff1, #1267d7);
+        box-shadow: 0 12px 24px rgba(24, 119, 242, 0.25);
+        font-size: 1.08rem;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
+      }
+
+      .join-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 16px 30px rgba(24, 119, 242, 0.32);
+        filter: saturate(1.08);
+      }
+
+      .join-button:focus-visible {
+        outline: 4px solid rgba(24, 119, 242, 0.24);
+        outline-offset: 4px;
+      }
+
+      .facebook-mark {
+        display: grid;
+        width: 27px;
+        height: 27px;
+        place-items: center;
+        border-radius: 50%;
+        color: var(--facebook);
+        background: white;
+        font-family: Arial, sans-serif;
+        font-size: 1.28rem;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      .arrow {
+        font-size: 1.35rem;
+        line-height: 1;
+        transition: transform 180ms ease;
+      }
+
+      .join-button:hover .arrow { transform: translateX(3px); }
+
+      .destination-note {
+        margin-top: 13px;
+        color: #897f7a;
+        font-size: 0.78rem;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      footer {
+        padding-top: 16px;
+        color: #8d837e;
+        font-size: 0.72rem;
+        letter-spacing: 0.04em;
+        text-align: center;
+      }
+
+      @media (min-width: 680px) {
+        .card-content { padding: 0 46px 38px; }
+        .brand-row { margin-top: -47px; }
+        .brand-logo { width: 94px; height: 94px; }
+        .brand-row > div { padding-top: 52px; }
+        .hero-copy { padding: 34px 0 28px; }
+        .join-button { width: min(100%, 460px); margin-inline: auto; }
+      }
+
+      @media (max-width: 420px) {
+        .site-shell { padding-inline: 10px; }
+        .invite-card { border-radius: 22px; }
+        .card-content { padding-inline: 18px; }
+        .brand-note { max-width: 210px; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="site-shell">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+
+      <section class="invite-card" aria-labelledby="invite-title">
+        <div class="cover-frame">
+          <img class="cover-image" src="xixi-cover.jpg" alt="Xixi 童裝品牌封面，呈現 Baby 與 Kids 童裝分類" />
+        </div>
+
+        <div class="card-content">
+          <div class="brand-row">
+            <img class="brand-logo" src="xixi-logo.jpg" alt="Xixi 衣櫃百寶箱品牌標誌" />
+            <div>
+              <p class="brand-name">Xixi 衣櫃百寶箱</p>
+              <p class="brand-note">中大童・小童童裝・親子好物</p>
+            </div>
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow">歡迎來到 Xixi 媽的選物空間</p>
+            <h1 id="invite-title">想幫孩子找到好看又好穿的童裝？</h1>
+            <p class="intro">加入 Xixi 童裝雜貨舖，精選中大童、小童穿搭與親子好物，第一時間掌握新品分享。</p>
+          </div>
+
+          <a
+            class="join-button"
+            href="https://www.facebook.com/groups/809939369050894/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="前往 Facebook 加入 Xi xi 童裝雜貨舖社團"
+          >
+            <span class="facebook-mark" aria-hidden="true">f</span>
+            立即加入社團挖好物
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+
+          <p class="destination-note">點擊後將前往 Facebook「Xi xi 童裝雜貨舖」社團</p>
+        </div>
+      </section>
+
+      <footer>© Xixi 衣櫃百寶箱</footer>
+    </main>
+  </body>
+</html>
